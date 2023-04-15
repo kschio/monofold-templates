@@ -1,3 +1,5 @@
+<img alt="monofold-templates-banner" src="https://user-images.githubusercontent.com/1451664/232226144-e5bfad72-d211-4c8f-ad78-27f1fac2a091.png">
+
 # monofold templates
 
 This repository contains templates for [monofold](https://github.com/kschio/monofold), a simple scaffolding helper for monorepos.
