@@ -1,0 +1,11 @@
+{
+  "name": "monofold-tsconfig-pkg",
+  "description": "Opinionated TSConfig",
+  "version": "0.1.0",
+  "files": [
+    "base.json",
+    "nextjs.json",
+    "vite.json"
+  ],
+  "private": true
+}

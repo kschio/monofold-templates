@@ -1,0 +1,8 @@
+{
+  "extends": "monofold-tsconfig-pkg/vite.json",
+  "compilerOptions": {
+    "types": ["node", "vitest/globals"]
+  },
+  "include": ["."],
+  "exclude": ["dist", "node_modules"]
+}

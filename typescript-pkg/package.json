@@ -1,0 +1,41 @@
+{
+  "name": "monofold-typescript-pkg",
+  "description": "Opinionated TypeScript package",
+  "version": "0.1.0",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "yarn clean && vite build",
+    "lint": "TIMING=1 eslint \"src/**/*.ts\"",
+    "lint:fix": "eslint --fix \"src/**/*.ts\"",
+    "lint:quiet": "eslint --quiet \"src/**/*.ts\"",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ci": "vitest --run",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "monofold-eslint-pkg": "*",
+    "monofold-tsconfig-pkg": "*",
+    "@types/eslint": "^8.37.0",
+    "@types/node": "^18.15.11",
+    "@vitest/coverage-c8": "0.30.1",
+    "@vitest/ui": "0.30.1",
+    "eslint": "8.38.0",
+    "rimraf": "^5.0.0",
+    "typescript": "5.0.4",
+    "vite": "^4.2.1",
+    "vite-plugin-dts": "2.2.0",
+    "vitest": "^0.30.1"
+  },
+  "engines": {
+    "npm": "only-use-yarn"
+  }
+}
