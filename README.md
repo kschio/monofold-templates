@@ -8,12 +8,12 @@ Each template includes a base set of files and configurations. The templates in 
 
 To use the templates, simply select a template option when running [monofold](https://github.com/kschio/monofold) and follow the prompts.
 
-## AVAILABLE NPX TEMPLATES
+### npx templates
 
 - 🚀 React App
 - 🔮 Next.js App
 
-## AVAILABLE OPINIONATED TEMPLATES
+### opinionated templates
 
 - 📦 TypeScript Package (Vite Build Config)
 - 📦 TypeScript Package (Internal Package)
