@@ -9,8 +9,9 @@ To use the templates, simply select a template option when running [monofold](ht
 ## Available templates
 
 - 🔮 Next.js App
-- 💅 Next.js App (Tailwind)
-- 📦 TypeScript Package
+- 💅 Next.js App (With Tailwind)
+- 📦 TypeScript Package (Vite Build Config)
+- 📦 TypeScript Package (Internal Package)
 - 📦 ESLint Package
 - 📦 TSConfig Package
 
